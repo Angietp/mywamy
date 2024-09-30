@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wamy - Contacto</title>
+    <link rel="shortcut icon" type="image" href="img/amarillo.jpeg">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="todo1">
+    <!--Barra de menu-->
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="img/amarillo.jpeg" alt="" width="50px"> Wamy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admi.html">Inicio Sesión</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!--imagen de wamy-->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>CONTÁCTANOS</h1>
+            <p>Estamos aquí para asesorarte</p>
+        </div>
+    </div>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="container mt-5">
+        <h2 class="section-title text-center mb-5">Comunicate con nosotros</h2>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Enviar</button>
+                </form>
+            </div>
+
+            <div class="col-lg-6">
+                <h3 class="mb-4">Comunícate con Nosotros</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle 8 19c 45, Valledupar, Cesar</p>
+                <p><i class="fab fa-instagram"></i> Envíanos un mensaje a <a href="https://www.instagram.com/my_wamy_?igsh=MTZjYWFmOTdubDhodg==" target="_blank">Instagram</a></p>
+                <p><i class="fab fa-whatsapp"></i> Envía un mensaje a <a href="https://wa.me/3024312643" target="_blank">WhatsApp</a></p>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="https://wa.me/3024312643" target="_blank" class="btn btn-warning me-3">
+                <i class="fab fa-whatsapp"></i> Enviar WhatsApp
+            </a>
+            <a href="https://www.instagram.com/my_wamy_?igsh=MTZjYWFmOTdubDhodg==" target="_blank" class="btn btn-warning">
+                <i class="fab fa-instagram"></i> Enviar Mensaje en Instagram
+            </a>
+        </div>
+    </section>
+    <!--botones para mayor facilidad-->
+ 
+ <div class="container mt-5">
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group btn-group-custom" role="group" aria-label="Button group">
+            <button class="btn-custom"><a class="btn-inicio" href="index.html">1</a></button>
+            <button class="btn-custom"><a class="btn-productos" href="productos.html">2</a></button>
+            <button class="btn-custom"><a class="btn-contacto" href="contacto.html">3</a></button>
+            <button class="btn-custom"><a class="btn-admi" href="admi.html">4</a></button>
+        </div>
+    </div>
+  </div>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2024 Wamy. Todos los derechos reservados.</p>
+    </footer>
+        
+</body class="todo1">
+</html>

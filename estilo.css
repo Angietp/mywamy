@@ -1,0 +1,292 @@
+
+.todo1{
+    background-color:#ffa704de;
+   
+
+}
+
+
+
+.hero-text h1 {
+    font-family:cursive;
+    font-size: 6rem;
+    letter-spacing: 0.1;
+    color: #f0efea;
+    
+}
+
+.btn-mostaza:hover {
+    background-color: #FFA500;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.hero-image {
+    background-image: url('img/esta.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer {
+    background-color: #ddd8cbea;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.product-section {
+    padding: 40px 0;
+    background-color: #f8f9fa; 
+}
+
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden; 
+    transition: transform 0.3s ease-in-out; }
+
+.product-card:hover {
+    transform: scale(1.05); }
+
+.card-img-top {
+    height: 350px; 
+    object-fit: cover; }
+
+.card-body {
+    background-color: #fff; 
+}
+
+.btn-mostaza {
+    background-color: #FFC107;
+    color: white;
+    border: none;
+}
+
+.btn-mostaza:hover {
+    background-color: #D9A000;
+}
+
+
+/*productos*/
+
+:root {
+    --mostaza: #F4D03F;
+    --mostaza-oscuro: #D4AC0D;
+    --crema: #FEF9E7;
+    --marron: #5D4037;
+}
+
+body {
+    background-color: var(--crema);
+    font-family: 'Georgia', serif;
+    color: var(--marron);
+}
+
+.navbar {
+    background-color: var(--mostaza);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand, .nav-link {
+    color: var(--marron) !important;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: var(--mostaza);
+    color: var(--marron);
+    padding: 3rem 0;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.menu-section {
+    margin-bottom: 4rem;
+}
+
+.menu-section h3 {
+    font-size: 2.5rem;
+    color: var(--mostaza-oscuro);
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--marron);
+}
+
+.card-text {
+    color: #666;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--mostaza-oscuro);
+    margin-top: 0.5rem;
+}
+
+.btn-primary {
+    background-color: var(--mostaza);
+    border-color: var(--mostaza-oscuro);
+    color: var(--marron);
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: var(--mostaza-oscuro);
+    border-color: var(--mostaza);
+    color: var(--marron);
+}
+
+#eventos .card-header {
+    background-color: var(--mostaza);
+    color: var(--marron);
+    font-weight: bold;
+}
+
+.footer {
+    background-color: var(--mostaza);
+    color: var(--marron);
+    padding: 2rem 0;
+    margin-top: 3rem;
+    box-shadow: 0 -2px 4px rgba}
+
+    .btn-group-custom {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .btn-custom {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+    }
+    .btn-custom a {
+        display: block;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+    }
+    .btn-custom a:hover {
+        opacity: 0.8;
+    }
+    .btn-inicio {
+        background-color: #ff9900;
+    }
+    .btn-productos {
+        background-color: #ff9900; 
+    }
+    .btn-contacto {
+        background-color: #ff9900;
+    }
+    .btn-admi {
+        background-color: #ff9900;
+    }
+
+/* login*/
+
+.login-body {
+    background-color: #ffa704de;
+    font-family: 'Georgia', serif;
+}
+
+.login-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.login-card .card-title {
+    color: #5D4037;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.login-card .form-label {
+    color: #5D4037;
+    font-weight: bold;
+}
+
+.login-card .form-control {
+    border-color: #F4D03F;
+}
+
+.login-card .form-control:focus {
+    border-color: #D4AC0D;
+    box-shadow: 0 0 0 0.2rem rgba(212, 172, 13, 0.25);
+}
+
+.login-card .btn-primary {
+    background-color: #F4D03F;
+    border-color: #D4AC0D;
+    color: #5D4037;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.login-card .btn-primary:hover {
+    background-color: #D4AC0D;
+    border-color: #F4D03F;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-card .form-check-label {
+    color: #5D4037;
+}
+
+.login-card a {
+    color: #D4AC0D;
+    transition: color 0.3s ease;
+}
+
+.login-card a:hover {
+    color: #5D4037;
+    text-decoration: none;
+}
+
